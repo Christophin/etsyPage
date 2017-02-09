@@ -1,0 +1,56 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+
+.logo  {
+  background: url(../assets/etsylogo@2x.png);
+  background-size: 75px 36px;
+  height: 36px;
+  width: 75px;
+  margin: 0px;
+}
+
+.search-bar  {
+}
+
+.cart-nav  {
+  float: right;
+}
+
+header ul li  {
+  display: inline-block;
+}
+.category-top-nav  {
+  ul {
+
+    li  {
+      display: inline-block;
+      font-size: .9rem;
+    }
+  }
+}
+
+.category-left-nav  {
+  width: 24%;
+  float: left;
+}
+
+
+.main-cont  {
+  font-size: .8rem;
+}
+
+.products  {
+  font-size: .8rem;
+  text-align: center;
+  float: left;
+  width: 74%;
+}
+
+.product  {
+  display: inline-block;
+}
