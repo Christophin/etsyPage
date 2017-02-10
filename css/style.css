@@ -147,4 +147,39 @@ header ul {
   margin-top: 8px; }
 
 .product {
-  display: inline-block; }
+  display: inline-block;
+  margin: 0px 5px 15px 5px;
+  font-size: .8em;
+  width: 210px;
+  background-color: white;
+  border-radius: 3px; }
+
+.image-box {
+  width: 210px;
+  height: 167px;
+  overflow: hidden; }
+  .image-box .image {
+    width: 210px; }
+
+.prod-box {
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 17px;
+  border-radius: 0px 0px 3px 3px;
+  line-height: 1.7em; }
+
+.shop-name {
+  float: left;
+  color: #777777;
+  margin-left: 3px; }
+
+.price {
+  float: right;
+  color: #78C142;
+  margin-right: 3px; }
+
+.title {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden; }
