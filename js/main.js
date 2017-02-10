@@ -17,7 +17,7 @@ var populateProducts = function ()  {
     var price = etsyData.results[i].price;
     var title = etsyData.results[i].title.substring(0, 24);
     var product = $(".product").eq(i);
-    $(product).html(`<img class="image" src="${image}" /> \n <div class="title">${title}...</div> \n <div class="shop-name">${shopName}</div> \n <div class="price">${price}</div>`);
+    $(product).html(`<div class="image-box"><img class="image" src="${image}" /></div> \n <div class="title">${title}...</div> \n <div class="shop-name">${shopName}</div> \n <div class="price">${price}</div>`);
   }
 }
 

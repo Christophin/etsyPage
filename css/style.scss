@@ -4,53 +4,196 @@
           box-sizing: border-box;
 }
 
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #2695B3;
+}
 
 
 .logo  {
   background: url(../assets/etsylogo@2x.png);
-  background-size: 75px 36px;
-  height: 36px;
-  width: 75px;
-  margin: 0px;
+  background-size: 60px 28px;
+  height: 28px;
+  width: 60px;
+  margin: 3px 15px 0px 5px;
+  float: left;
 }
 
-.search-bar  {
+.search-box  {
+  border: 2px solid lightgrey;
+  border-radius: 3px;
+  font-size: .8rem;
+  padding: .3rem;
+  padding-right: 16.5rem;
+  position: absolute;
+  margin-top: -12px;
+  background-color: #FAF9F5;
 }
+
+.search-button  {
+  background-color: #2695B3;
+  color: white;
+  position: absolute;
+  margin-left: 19.7rem;
+  margin-top: 2px;
+  font-size: .7em;
+  padding: 7px 13px;
+  border: 1px solid #2F98B1;
+  border-radius: 0px 3px 3px 0px;
+  p  {
+    margin: 0;
+  }
+}
+
+
 
 .cart-nav  {
   float: right;
+  font-size: .75em;
+  margin-top: 9px;
+  margin-right: 25px;
 }
 
-header ul li  {
+.cart  {
+  background-image: url(../assets/cart.png);
+  background-size: 18px 18px;
+  height: 18px;
+  width: 18px;
   display: inline-block;
+  float: right;
+  font-size: .7em;
+  margin-top: 1px;
+  margin-right: 41px;
+  p  {
+    margin-top: 22px;
+  }
 }
-.category-top-nav  {
-  ul {
 
+.divide  {
+  border-left: 1px solid lightgrey;
+  float: right;
+  height: 31px;
+  margin-left: 966px;
+  position: absolute;
+}
+
+.sign-in  {
+  border: 2px solid #2695B3;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.register  {
+  margin-right: 10px;
+}
+
+.sellEtsy  {
+  margin-right: 10px;
+}
+
+
+
+header {
+  ul {
+    padding-left: 24px;
+    text-align: left;
     li  {
-      display: inline-block;
-      font-size: .9rem;
+  display: inline-block;
     }
   }
 }
 
-.category-left-nav  {
-  width: 24%;
-  float: left;
+.category-top-nav  {
+  ul {
+    margin-top: 30px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 2px solid lightgrey;
+    padding: 6px 0px 10px 0px;
+    color: #777777;
+    margin-bottom: 0px;
+    li  {
+      display: inline-block;
+      font-size: .75rem;
+      color: #777777;
+    }
+  }
 }
 
+.clothing  {
+  margin-left: 29px;
+  a {
+    color: #777777;
+  }
+}
+
+.jewelry, .craft, .weddings, .entertainment, .home, .kids, .vintage {
+  margin-left: 13px;
+  a  {
+    color: #777777;
+  }
+}
 
 .main-cont  {
   font-size: .8rem;
+  background-color: #FAF9F5;
+  overflow: hidden;
+  padding-top: 24px;
+}
+
+.results-div  {
+  font-size: .85em;
+}
+
+.show-results  {
+  margin-left: 29px;
+}
+
+.search-results  {
+  margin-left: 122px;
+}
+
+.sort-by  {
+
+}
+
+.category-left-nav  {
+  width: 16.2%;
+  float: left;
+  margin-left: 29px;
+  border: 1px solid lightgrey;
+  background-color: white;
+  border-radius: 3px;
+  margin-top: 7px;
+  font-size: .85em;
+  ul  {
+    padding: 0px;
+    li  {
+      margin-left: 18px;
+      line-height: 1.81em;
+    }
+  }
+}
+
+.all-results  {
+  margin-left: 10px;
 }
 
 .products  {
   font-size: .8rem;
   text-align: center;
   float: left;
-  width: 74%;
+  width: 81%;
+  margin-top: 8px;
 }
 
 .product  {
   display: inline-block;
+}
+
+.image  {
+  
 }
