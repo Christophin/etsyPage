@@ -239,3 +239,9 @@ header {
   overflow: hidden;
   color: black;
 }
+
+.product[title]:hover:after {
+  content: attr(title);
+  position: absolute;
+  z-index: -10;
+}

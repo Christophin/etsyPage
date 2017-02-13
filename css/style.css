@@ -153,6 +153,8 @@ header ul {
   width: 210px;
   background-color: white;
   border-radius: 3px; }
+  .product a {
+    color: black; }
 
 .image-box {
   width: 210px;
@@ -182,4 +184,10 @@ header ul {
 .title {
   white-space: nowrap;
   text-overflow: ellipsis;
-  overflow: hidden; }
+  overflow: hidden;
+  color: black; }
+
+.product[title]:hover:after {
+  content: attr(title);
+  position: absolute;
+  z-index: -10; }

@@ -17,8 +17,9 @@ var populateProducts = function ()  {
     var price = etsyData.results[i].price;
     var title = etsyData.results[i].title;
     var link = etsyData.results[i].url;
+    var hover = etsyData.results[i].description;
     $(".products").append(`
-                      <div class="product">
+                      <div class="product" title="${hover}">
                       <a href="${link}">
                       <div class="image-box"><img class="image" src="${image}" /></div>
 
