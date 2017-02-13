@@ -16,8 +16,18 @@ var populateProducts = function ()  {
     var shopName = etsyData.results[i].Shop.login_name;
     var price = etsyData.results[i].price;
     var title = etsyData.results[i].title;
-    var product = $(".product").eq(i);
-    $(product).html(`<div class="image-box"><img class="image" src="${image}" /></div> \n <div class="prod-box"><div class="title">${title}</div> \n <div class="shop-name">${shopName}</div> \n <div class="price">$${price}</div></div>`);
+    var link = etsyData.results[i].url;
+    $(".products").append(`
+                      <div class="product">
+                      <a href="${link}">
+                      <div class="image-box"><img class="image" src="${image}" /></div>
+
+                      \n <div class="prod-box"><div class="title">${title}</div>
+                      \n <div class="shop-name">${shopName}</div>
+                      \n <div class="price">$${price}</div></div>
+                      </a>
+                      </div>
+                    `);
   }
 }
 
