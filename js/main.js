@@ -21,7 +21,11 @@ var populateProducts = function ()  {
     $(".products").append(`
                       <div class="product" title="${title}">
                       <a href="${link}">
-                      <div class="image-box"><img class="image" src="${image}" /></div>
+                      <div class="image-box">
+                        <img class="hamburger" src="./assets/hamburger.png"/>
+                        <img class="heart" src="./assets/heart.png"/>
+                        <img class="image" src="${image}" />
+                      </div>
 
                       \n <div class="prod-box"><div class="title">${title}</div>
                       \n <div class="shop-name">${shopName}</div>

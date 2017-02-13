@@ -206,9 +206,10 @@ header {
     width: 210px;
     height: 167px;
     overflow: hidden;
+    position: relative;
     .image{
       width:210px;
-
+      float: left;
     }
 }
 
@@ -244,4 +245,27 @@ header {
   content: attr(title);
   position: absolute;
   z-index: -10;
+}
+
+.heart, .hamburger {
+  display: none;
+  float: right;
+  position: absolute;
+}
+
+.heart {
+  margin-left: 47px;
+
+}
+
+.product:hover .heart  {
+  display: inline-block;
+}
+
+.hamburger {
+  margin-left: 76px;
+}
+
+.product:hover .hamburger  {
+  display: inline-block;
 }
